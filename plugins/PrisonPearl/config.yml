@@ -1,0 +1,27 @@
+free_world: world
+free_respawn: true
+free_tppearl: true
+damagelog_min: 3
+damagelog_ticks: 600
+ppkill_enabled: true
+prison_stealing: true
+prison_musthotbar: true
+summon_damage_radius: 20
+summon_damage_ticks: 20
+summon_damage_amt: 2
+prison_world: world_the_end
+prison_resetbed: false
+ppsummon_clear_inventory: false
+ppreturn_kills: false
+prison_motd:
+- Estás atrapado en este mundo desolador e
+- infinito, mediante una perla prisionera.
+- Escribe /pplocate para localizarla.
+save_ticks: 2400
+upkeep:
+  resource: 263
+  quantity: 4
+ignore_feed:
+  days: 0
+  hours: 0
+  seconds: 0

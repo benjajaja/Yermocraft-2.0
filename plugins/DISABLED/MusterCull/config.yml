@@ -1,0 +1,164 @@
+debug: false
+damage: 6
+damage_chance: 50
+ticks_per_damage: 40
+damage_count: 1
+mob_max_mob: 5000
+ticks_between_hard_cap: 80
+mob_limit: 2
+mob_limit_percent: 1
+
+limits:
+- type: CREEPER
+  limit: 1
+  culling: SPAWN
+  range: 10
+
+- type: SKELETON
+  limit: 1
+  culling: SPAWN
+  range: 10
+- type: SKELETON
+  limit: 1
+  culling: SPAWNER
+  range: 20
+- type: SKELETON
+  limit: 1
+  culling: DAMAGE
+  range: 1
+
+- type: SPIDER
+  limit: 1
+  culling: SPAWN
+  range: 20
+- type: SPIDER
+  limit: 1
+  culling: SPAWNER
+  range: 10
+- type: SPIDER
+  limit: 1
+  culling: DAMAGE
+  range: 1
+
+- type: ZOMBIE
+  limit: 2
+  culling: SPAWN
+  range: 20
+- type: ZOMBIE
+  limit: 1
+  culling: SPAWNER
+  range: 20
+- type: ZOMBIE
+  limit: 1
+  culling: DAMAGE
+  range: 1
+
+- type: SLIME
+  limit: 1
+  culling: SPAWN
+  range: 20
+
+#- type: GHAST
+#  limit: 1
+#  culling: SPAWN
+#  range: 20
+
+- type: PIGZOMBIE
+  limit: 1
+  culling: SPAWN
+  range: 5
+
+- type: ENDERMAN
+  limit: 1
+  culling: SPAWN
+  range: 5
+
+- type: CAVESPIDER
+  limit: 3
+  culling: SPAWNER
+  range: 10
+- type: CAVESPIDER
+  limit: 3
+  culling: DAMAGE
+  range: 1
+
+#- type: SILVERFISH
+#  limit: 3
+#  culling: SPAWN
+#  range: 10
+
+- type: BLAZE
+  limit: 2
+  culling: SPAWNER
+  range: 9
+- type: BLAZE
+  limit: 1
+  culling: DAMAGE
+  range: 1
+
+#- type: LAVASLIME
+#  limit: 0
+#  culling: SPAWN
+#  range: 0
+#- type: ENDERDRAGON
+#  limit: 0
+#  culling: SPAWN
+#  range: 0
+
+# test:
+
+- type: PIG
+  limit: 1
+  culling: SPAWNER
+  range: 20
+
+- type: PIG
+  limit: 10
+  culling: DAMAGE
+  range: 5
+
+- type: SHEEP
+  limit: 10
+  culling: DAMAGE
+  range: 5
+
+- type: COW
+  limit: 10
+  culling: DAMAGE
+  range: 5
+
+- type: CHICKEN
+  limit: 15
+  culling: DAMAGE
+  range: 10
+
+#- type: SQUID
+#  limit: 0
+#  culling: SPAWN
+#  range: 0
+
+- type: WOLF
+  limit: 2
+  culling: DAMAGE
+  range: 5
+- type: OZELOT
+  limit: 2
+  culling: DAMAGE
+  range: 5
+
+
+- type: MUSHROOMCOW
+  limit: 10
+  culling: DAMAGE
+  range: 5
+
+
+- type: VILLAGERGOLEM
+  limit: 1
+  culling: DAMAGE
+  range: 5
+
+- type: VILLAGER
+  limit: 2
+  culling: SPAWN
+  range: 5
