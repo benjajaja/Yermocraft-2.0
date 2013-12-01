@@ -1,0 +1,6 @@
+orebfuscator_cache/*
+logs/*
+server.log
+world/*
+world_nether/*
+world_the_end/*
