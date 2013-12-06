@@ -4,3 +4,6 @@ server.log
 world/*
 world_nether/*
 world_the_end/*
+banned-ips.txt
+banned-players.txt
+plugins/RealisticBiomes/plantData.sqlite

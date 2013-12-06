@@ -17,17 +17,17 @@ realistic_biomes:
 
  # catagories of biomes
  biome_aliases:
-  cold: [ICE_PLAINS, ICE_MOUNTAINS, TAIGA, TAIGA_HILLS]
-  cold_forest: [TAIGA, TAIGA_HILLS]
-  temperate: [PLAINS, FOREST, FOREST_HILLS]
-  forest: [FOREST, FOREST_HILLS]
-  mountain: [EXTREME_HILLS, SMALL_MOUNTAINS]
-  hot_dry: [DESERT, DESERT_HILLS]
-  hot_rainy: [JUNGLE, JUNGLE_HILLS]
+  cold: [ICE_PLAINS, ICE_MOUNTAINS, TAIGA, TAIGA_HILLS, ICE_PLAINS_SPIKES]
+  cold_forest: [TAIGA, TAIGA_HILLS, COLD_TAIGA, COLD_TAIGA_HILLS, MEGA_TAIGA, MEGA_TAIGA_HILLS, TAIGA_MOUNTAINS, COLD_TAIGA_MOUNTAINS, MEGA_SPRUCE_TAIGA]
+  temperate: [PLAINS, FOREST, SUNFLOWER_PLAINS, BIRCH_FOREST, FLOWER_FOREST, MESA_PLATEAU_FOREST, ROOFED_FOREST, MESA_PLATEAU]
+  forest: [FOREST, FOREST_HILLS, BIRCH_FOREST, BIRCH_FOREST_HILLS, FLOWER_FOREST, MESA_PLATEAU_FOREST, BIRCH_FOREST_MOUNTAINS, BIRCH_FOREST_HILLS_MOUNTAINS, ROOFED_FOREST_MOUNTAINS, MEGA_SPRUCE_TAIGA_HILLS, ROOFED_FOREST, MESA_PLATEAU_FOREST_MOUNTAINS]
+  mountain: [EXTREME_HILLS, SMALL_MOUNTAINS, EXTREME_HILLS_PLUS, MESA_PLATEAU_MOUNTAINS, EXTREME_HILLS_MOUNTAINS, EXTREME_HILLS_PLUS_MOUNTAINS, MESA_PLATEAU_FOREST_MOUNTAINS]
+  hot_dry: [DESERT, DESERT_HILLS, SAVANNA, SAVANNA_PLATEAU, MESA, MESA_PLATEAU, DESERT_MOUNTAINS, SAVANNA_MOUNTAINS, SAVANNA_PLATEAU_MOUNTAINS, MESA_BRYCE, MESA_PLATEAU, MESA_PLATEAU_FOREST, MESA_PLATEAU_FOREST_MOUNTAINS]
+  hot_rainy: [JUNGLE, JUNGLE_HILLS, ROOFED_FOREST, JUNGLE_MOUNTAINS, JUNGLE_EDGE_MOUNTAINS]
   water: [BEACH, OCEAN, FROZEN_OCEAN, RIVER, FROZEN_RIVER]
   freshwater: [RIVER, FROZEN_RIVER]
   mushroom: [MUSHROOM_ISLAND, MUSHROOM_SHORE]
-  other: [HELL, SKY, SWAMPLAND]
+  other: [HELL, SKY, SWAMPLAND, SWAMPLAND_MOUNTAINS]
 
  # list of crops to be effected by the plugin
  # valid crop names can be any of the following:
@@ -107,6 +107,8 @@ realistic_biomes:
     temperate: 0.5
     cold: 0.25
     SKY: 0.1
+    SAVANNA_PLATEAU: 0.1
+    MESA_PLATEAU_FOREST: 0.1
 
   #...................
 
@@ -133,6 +135,7 @@ realistic_biomes:
    biomes:
     SWAMPLAND: 1.0
     hot_rainy: 0.5
+    hot_dry: 0.1
     temperate: 0.25
 
   PUMPKIN_STEM:
@@ -142,6 +145,7 @@ realistic_biomes:
    biomes:
     cold: 1.0
     temperate: 0.25
+    hot_dry: 0.1
 
   #.....................
 
@@ -152,6 +156,7 @@ realistic_biomes:
    biomes:
     SWAMPLAND: 1.0
     hot_rainy: 0.5
+    hot_dry: 0.1
     temperate: 0.25
 
   PUMPKIN:
@@ -161,6 +166,7 @@ realistic_biomes:
    biomes:
     cold: 1.0
     temperate: 0.25
+    hot_dry: 0.1
 
   #----------------------------------------
 
@@ -232,6 +238,8 @@ realistic_biomes:
     hot_rainy: 0.5
     SKY: 0.25
     SWAMPLAND: 0.5
+    SAVANNA: 0.5
+    SAVANNA_PLATEAU: 0.5
 
   #......................
 
@@ -260,6 +268,7 @@ realistic_biomes:
    inherit: mushroom
    biomes:
     SWAMPLAND: 1.0
+    MESA_PLATEAU_FOREST: 0.25
   mat_BROWN_MUSHROOM:
    inherit: tree_BROWN_MUSHROOM
   tree_RED_MUSHROOM:
@@ -286,6 +295,8 @@ realistic_biomes:
     cold: 0.5
     hot_rainy: 0.1
     mushroom: 1.0
+    SAVANNA_PLATEAU: 0.1
+    MESA_PLATEAU_FOREST: 0.1
 
   CHICKEN:
    inherit: animal
@@ -298,6 +309,8 @@ realistic_biomes:
     hot_rainy: 0.1
     SWAMPLAND: 0.1
     mushroom: 1.0
+    SAVANNA_PLATEAU: 0.25
+    MESA_PLATEAU_FOREST: 0.25
 
   PIG:
    inherit: animal
@@ -307,6 +320,8 @@ realistic_biomes:
     mushroom: 1.0
     SWAMPLAND: 1.0
     hot_rainy: 1.0
+    SAVANNA_PLATEAU: 0.1
+    MESA_PLATEAU_FOREST: 0.1
 
   SHEEP:
    inherit: animal
@@ -316,6 +331,8 @@ realistic_biomes:
     cold: 0.5
     mushroom: 0.25
     temperate: 0.25
+    SAVANNA_PLATEAU: 0.25
+    MESA_PLATEAU_FOREST: 0.25
 
   MUSHROOM_COW:
    inherit: animal
