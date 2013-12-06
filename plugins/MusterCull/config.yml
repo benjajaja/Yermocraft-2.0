@@ -41,9 +41,9 @@ limits:
   culling: DAMAGE
   range: 1
 - type: SLIME
-  limit: 1
+  limit: 3
   culling: SPAWN
-  range: 20
+  range: 16
 #- type: GHAST
 #  limit: 0
 #  culling: SPAWN
