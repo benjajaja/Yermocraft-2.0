@@ -1,0 +1,2 @@
+&6Shiul no paga lo que debe
+&6Players online:&c {ONLINE} &6- World time:&c {WORLDTIME12}

@@ -61,10 +61,7 @@
       "OFFICER",
       "LEADER"
     ],
-    "SETHOME": [
-      "OFFICER",
-      "LEADER"
-    ],
+    "SETHOME": [],
     "WITHDRAW": [
       "OFFICER",
       "LEADER"
@@ -163,12 +160,12 @@
   "handleExploitEnderPearlClipping": true,
   "handleExploitInteractionSpam": true,
   "handleExploitTNTWaterlog": true,
-  "homesEnabled": true,
+  "homesEnabled": false,
   "homesMustBeInClaimedTerritory": true,
-  "homesTeleportToOnDeath": true,
-  "homesRespawnFromNoPowerLossWorlds": true,
-  "homesTeleportCommandEnabled": true,
-  "homesTeleportCommandEssentialsIntegration": true,
+  "homesTeleportToOnDeath": false,
+  "homesRespawnFromNoPowerLossWorlds": false,
+  "homesTeleportCommandEnabled": false,
+  "homesTeleportCommandEssentialsIntegration": false,
   "homesTeleportCommandSmokeEffectEnabled": true,
   "homesTeleportAllowedFromEnemyTerritory": false,
   "homesTeleportAllowedFromDifferentWorld": false,
