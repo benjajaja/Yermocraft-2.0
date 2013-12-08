@@ -11,6 +11,9 @@ plugins/Essentials/items.csv
 plugins/Essentials/upgrades-done.yml
 plugins/Essentials/userdata/
 plugins/Essentials/worth.yml
+plugins/Essentials/warps
 plugins/Factions/factions.json
 plugins/Factions/players.json
 plugins/Factions/tags.json
+plugins/Factions/board.json
+plugins/WorldEdit/worldedit.log.lck
