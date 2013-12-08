@@ -1,0 +1,11 @@
+{
+  "GipsyKing": {
+    "factionId": "1",
+    "role": "LEADER",
+    "title": "",
+    "power": 10.0,
+    "powerBoost": 0.0,
+    "lastPowerUpdateTime": 1386503928176,
+    "lastLoginTime": 1386503928176
+  }
+}
