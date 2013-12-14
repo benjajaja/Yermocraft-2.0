@@ -21,7 +21,6 @@
   "factionPermDefaults": {
     "BUILD": [
       "MEMBER",
-      "ALLY",
       "OFFICER",
       "LEADER",
       "RECRUIT"
