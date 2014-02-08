@@ -6,14 +6,14 @@ realistic_biomes:
  database_password: ""
  database_prefix: "rb"
 
- persistence_enabled: true
+ persistence_enabled: false
 
  unload_batch_period: 100
  grow_event_load_chance: 0.1
 
  unload_batch_max_time: 20
 
- log_db: true
+ log_db: false
 
  # catagories of biomes
  biome_aliases:
