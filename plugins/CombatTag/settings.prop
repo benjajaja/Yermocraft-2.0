@@ -1,15 +1,15 @@
 #
-#Sat Nov 30 12:09:11 CET 2013
+#Sun Feb 09 00:12:58 CET 2014
 npcDieAfterTime=false
-tagMessageDamaged=Has sido dañado por [player]. Escribe /ct para ver el tiempo de marcado.
+tagMessageDamaged=Has sido da\u00C3\u00B1ado por [player]. Escribe /ct para ver el tiempo de marcado.
 blockEditWhileTagged=true
-dontSpawnInWG=false
 Enable-Debugging=false
+dontSpawnInWG=false
 onlyDamagerTagged=false
-Version=5.9.5
-commandMessageTagged=Estás en combate por [time] segundos.
+Version=6.0.2
+commandMessageTagged=Est\u00C3\u00A1s en combate por [time] segundos.
 npcDespawnTime=-1
-commandMessageNotTagged=No estás en combate
+commandMessageNotTagged=No est\u00C3\u00A1s en combate
 disabledCommands=[]
 InstaKill=false
 npcName=PvpLogger
@@ -18,7 +18,7 @@ blockTeleport=false
 Tag-Duration=10
 disabledWorlds=[exampleWorld,exampleWorld2]
 mobTag=false
+tagMessageDamager=Has da\u00C3\u00B1ado a [player]. Escribe /ct para ver el tiempo de marcado.
 blockEnderPearl=false
-tagMessageDamager=Has dañado a [player]. Escribe /ct para ver el tiempo de marcado.
-playerTag=true
 DropTagOnKick=true
+playerTag=true
