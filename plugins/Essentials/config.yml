@@ -99,8 +99,10 @@ overridden-commands:
 # Commands should fallback to the vanilla versions if available.
 # You should not have to disable commands used in other plugins, they will automatically get priority.
 disabled-commands:
-#  - nick
-#  - clear
+  - nick
+  - clear
+  - back
+  - jump
 
 # These commands will be shown to players with socialSpy enabled.
 # You can add commands from other plugins you may want to track or

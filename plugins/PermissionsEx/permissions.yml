@@ -1,0 +1,23 @@
+groups:
+  default:
+    default: true
+    permissions:
+    - modifyworld.*
+    - commandsigns.use.*
+    - -commandsigns.create.*
+    - -essentials.home
+    - -essentials.sethome
+    - essentials.sethome.bed
+    - essentials.spawn
+    - -factions.home
+  admin:
+    permissions:
+    - permissions.*
+    - essentials.*
+users:
+  GipsyKing:
+    group:
+    - admin
+  Shiul93:
+    group:
+    - admin

@@ -1,3 +1,4 @@
+plugins/CommandSigns/signs.yml
 orebfuscator_cache/*
 logs/*
 server.log
