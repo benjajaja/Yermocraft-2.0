@@ -17,3 +17,7 @@ plugins/Factions/players.json
 plugins/Factions/tags.json
 plugins/Factions/board.json
 plugins/WorldEdit/worldedit.log.lck
+plugins/Essentials/spawn.yml
+plugins/dynmap/web/tiles/*
+mstore/*
+plugins/Cannons/Cannons.db
