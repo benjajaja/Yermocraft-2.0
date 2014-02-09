@@ -1,0 +1,27 @@
+# enable only for the following worlds
+worlds:
+  - world
+
+# do not regenerate explosions not damaging faction territory
+ignore-wilderness: true
+  
+# do not regenerate containers (chests, dispensers, furnaces...)
+ignore-containers: true
+
+# regeneration delay
+regeneration-minutes: 60
+
+# break obsidian in 3x3 box surrounding explosion center
+break-obsidian: true
+
+# clear liquids for explosions
+clear-liquids: true
+
+# these blocks are ignored and dropped (default: gold, diamond and emerald ores and block)
+drops:
+  - 14
+  - 41
+  - 56
+  - 57
+  - 129
+  - 133
