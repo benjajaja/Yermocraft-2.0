@@ -14,7 +14,7 @@
     "PVP": true,
     "FRIENDLYFIRE": true,
     "MONSTERS": true,
-    "EXPLOSIONS": false,
+    "EXPLOSIONS": true,
     "FIRESPREAD": false,
     "ENDERGRIEF": false
   },
