@@ -21,5 +21,11 @@ plugins/WorldEdit/worldedit.log.lck
 plugins/Essentials/spawn.yml
 plugins/dynmap/web/tiles/*
 plugins/dynmap/world.pending
-mstore/*
 plugins/Cannons/Cannons.db
+
+mstore/factions_board@default
+mstore/factions_faction@default
+mstore/factions_mplayer
+mstore/factions_uconf@default
+mstore/factions_uplayer@default
+
