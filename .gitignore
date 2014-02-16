@@ -20,5 +20,6 @@ plugins/Factions/board.json
 plugins/WorldEdit/worldedit.log.lck
 plugins/Essentials/spawn.yml
 plugins/dynmap/web/tiles/*
+plugins/dynmap/world.pending
 mstore/*
 plugins/Cannons/Cannons.db
