@@ -263,7 +263,7 @@ enabledSigns:
   #- balance
   #- buy
   #- sell
-  #- trade
+  - trade
   #- free
   #- disposal
   #- warp
