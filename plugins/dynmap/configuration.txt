@@ -283,10 +283,10 @@ render-triggers:
 #webpage-title: "My Awesome Server Map"
 
 # The path where the tile-files are placed.
-tilespath: ~/dynmap/tiles
+tilespath: /home/mc/dynmap/tiles
 
 # The path where the web-files are located.
-webpath: ~/dynmap
+webpath: /home/mc/dynmap
 
 # The network-interface the webserver will bind to (0.0.0.0 for all interfaces, 127.0.0.1 for only local access).
 # If not set, uses same setting as server in server.properties (or 0.0.0.0 if not specified)
