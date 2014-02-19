@@ -260,19 +260,19 @@ kits:
 
 enabledSigns:
   - color
-  #- balance
-  #- buy
-  #- sell
+  - balance
+  - buy
+  - sell
   - trade
   #- free
   #- disposal
   #- warp
   #- kit
-  #- mail
+  - mail
   #- enchant
   #- gamemode
-  #- heal
-  #- info
+  - heal
+  - info
   #- spawnmob
   #- repair
   #- time
