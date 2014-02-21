@@ -1,5 +1,0 @@
-debug: false
-messages:
-   randomspawned: "Has aparecido en un lugar extraño"
-nodamagetime: 1
-rs-sign-text: "[ViajeAleatorio]"
