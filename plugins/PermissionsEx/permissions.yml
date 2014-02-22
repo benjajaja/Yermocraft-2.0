@@ -15,6 +15,14 @@ groups:
     - permissions.*
     - essentials.*
     - RandomLocation.Admin
+    - vanish.op
+    - vanish.silentjoin
+    - vanish.silentquit
+    - vanish.hooks.dynmap.alwayshidden
+    - vanish.hooks.essentials.hide
+    - vanish.effects.smoke
+    - vanish.nochat
+    - vanish.toggle.all
 users:
   GipsyKing:
     group:
