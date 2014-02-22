@@ -42,10 +42,8 @@ world-settings:
     ticks-per:
       hopper-transfer: 8
       hopper-check: 8
-    random-light-updates: false
-    save-structure-info: true
     anti-xray:
-      enabled: true
+      enabled: false
       engine-mode: 1
       blocks:
       - 1
@@ -71,11 +69,13 @@ world-settings:
       pumpkin-modifier: 100
       sapling-modifier: 100
       wheat-modifier: 100
+    random-light-updates: false
+    save-structure-info: true
     view-distance: 8
     chunks-per-tick: 650
     merge-radius:
       exp: 3.0
       item: 2.5
     mob-spawn-range: 4
-    item-despawn-rate: 6000
     arrow-despawn-rate: 1200
+    item-despawn-rate: 6000

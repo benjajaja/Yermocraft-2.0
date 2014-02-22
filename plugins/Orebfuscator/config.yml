@@ -1,9 +1,9 @@
 ConfigVersion: 10
 Integers:
-  EngineMode: 1
+  EngineMode: 2
   InitialRadius: 1
-  UpdateRadius: 2
-  ProcessingThreads: 0
+  UpdateRadius: 4
+  ProcessingThreads: 3
   MaxLoadedCacheFiles: 64
   ProximityHiderDistance: 8
   ProximityHiderID: 1
@@ -19,10 +19,11 @@ Booleans:
   NoObfuscationForOps: false
   NoObfuscationForPermission: false
   UseCache: true
-  LoginNotification: false
+  LoginNotification: true
   AntiTexturePackAndFreecam: true
   Enabled: true
   CheckForUpdates: true
+  UseYLocationProximity: false
 Lists:
   ObfuscateBlocks:
   - 14
@@ -35,6 +36,7 @@ Lists:
   - 74
   - 129
   - 130
+  - 84
   NetherObfuscateBlocks:
   - 87
   - 153
@@ -56,6 +58,7 @@ Lists:
   - 59
   - 61
   - 62
+  - 84
   - 116
   - 117
   - 123
@@ -71,6 +74,7 @@ Lists:
   - 158
   DisabledWorlds:
   - world_the_end
+  - world_nether
   RandomBlocks:
   - 1
   - 4
