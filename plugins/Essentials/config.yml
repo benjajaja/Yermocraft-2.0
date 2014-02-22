@@ -259,20 +259,20 @@ kits:
 # Color is not an actual sign, it's for enabling using color codes on signs, when the correct permissions are given.
 
 enabledSigns:
-  #- color
-  #- balance
-  #- buy
-  #- sell
-  #- trade
+  - color
+  - balance
+  - buy
+  - sell
+  - trade
   #- free
   #- disposal
   #- warp
   #- kit
-  #- mail
+  - mail
   #- enchant
   #- gamemode
-  #- heal
-  #- info
+  - heal
+  - info
   #- spawnmob
   #- repair
   #- time

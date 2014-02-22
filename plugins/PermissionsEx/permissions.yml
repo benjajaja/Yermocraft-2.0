@@ -14,6 +14,7 @@ groups:
     permissions:
     - permissions.*
     - essentials.*
+    - RandomLocation.Admin
 users:
   GipsyKing:
     group:
