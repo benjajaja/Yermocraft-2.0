@@ -1,6 +1,6 @@
 ConfigVersion: 10
 Integers:
-  EngineMode: 2
+  EngineMode: 1
   InitialRadius: 1
   UpdateRadius: 4
   ProcessingThreads: 3
