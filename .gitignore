@@ -26,6 +26,7 @@ plugins/Cannons/Cannons.db
 mstore/factions_board@default
 mstore/factions_faction@default
 mstore/factions_mplayer
-mstore/factions_uconf@default
 mstore/factions_uplayer@default
+
+plugins/RandomLocation/Backups/
 
