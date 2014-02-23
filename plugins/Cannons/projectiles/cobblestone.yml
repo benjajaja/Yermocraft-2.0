@@ -68,6 +68,7 @@ explosion:
   potionEffects:
    - harm
    - slow
+   - weakness
 
 #options which determine whether blocks are spawned around the impact area. Works with spawn eggs and blocks
 placeBlock:

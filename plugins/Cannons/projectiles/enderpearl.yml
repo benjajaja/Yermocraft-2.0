@@ -1,6 +1,6 @@
 general:
   #the name of the projectile displayed in game
-  projectileName: Teleporter projectile
+  projectileName: Blinding projectile
   #the name of the item to load this projectile
   itemName: ender pearl
   #the item which is associated with the projectile.
@@ -39,7 +39,7 @@ cannonball:
   #possible properties are: superbreaker, incendiary, teleport, observer
   properties:
     #the player is tied to the projectile and will follow its path to the target
-    - teleport
+    - observer
 
 explosion:
   #the explosion power of the cannonball when it hits; this number determines the explosions range in blocks.
@@ -66,6 +66,9 @@ explosion:
   potionEffects:
    - harm
    - slow
+   - blind
+   - confusion
+   - weakness
 
 #options which determine whether blocks are spawned around the impact area. Works with spawn eggs and blocks
 placeBlock:
