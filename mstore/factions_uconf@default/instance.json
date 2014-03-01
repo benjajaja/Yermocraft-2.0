@@ -85,22 +85,23 @@
       "LEADER"
     ]
   },
+  "broadcastNameChange": false,
   "powerMax": 10.0,
   "powerMin": 0.0,
   "powerPerHour": 2.0,
-  "powerPerDeath": -2.0,
-  "canLeaveWithNegativePower": true,
+  "powerPerDeath": -5.0,
+  "canLeaveWithNegativePower": false,
   "factionMemberLimit": 0,
-  "factionPowerMax": 0.0,
+  "factionPowerMax": 50.0,
   "factionNameLengthMin": 3,
-  "factionNameLengthMax": 16,
+  "factionNameLengthMax": 8,
   "factionNameForceUpperCase": false,
-  "claimsMustBeConnected": true,
+  "claimsMustBeConnected": false,
   "claimingFromOthersAllowed": true,
   "claimsCanBeUnconnectedIfOwnedByOtherFaction": false,
   "claimsRequireMinFactionMembers": 1,
   "claimedLandsMax": 0,
-  "homesEnabled": true,
+  "homesEnabled": false,
   "homesMustBeInClaimedTerritory": true,
   "homesTeleportCommandEnabled": true,
   "homesTeleportAllowedFromEnemyTerritory": true,
@@ -173,7 +174,7 @@
     "TRUCE": 0.0,
     "NEUTRAL": 0.0
   },
-  "bankEnabled": true,
+  "bankEnabled": false,
   "bankFactionPaysCosts": true,
   "bankFactionPaysLandCosts": true
 }

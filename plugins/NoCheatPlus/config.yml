@@ -96,7 +96,7 @@ checks:
       actions: cancel vl>200 log:bspeed:0:2:if cancel vl>1000 cancel log:bspeed:0:2:icf cmd:kickbspeed
     visible:
       active: true
-      actions: cancel vl>5 log:bvisible:0:2:if cancel
+      actions: cancel vl>8 log:bvisible:0:2:if cancel
   blockplace:
     against:
       active: true
