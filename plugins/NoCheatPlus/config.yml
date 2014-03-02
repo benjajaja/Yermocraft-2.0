@@ -59,10 +59,10 @@ checks:
       actions: cancel vl>10 log:bdirection:0:5:if cancel
     fastbreak:
       active: true
-      strict: true
+      strict: false
       delay: 90
       intervalsurvival: 100
-      grace: 2000
+      grace: 10000
       actions: cancel vl>0 log:fastbreak:3:5:cif cancel
     frequency:
       active: true
