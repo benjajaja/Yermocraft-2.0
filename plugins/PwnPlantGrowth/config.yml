@@ -8,7 +8,6 @@
 # Which worlds should this plugin be enabled in? Worlds not in this list will have default growth.
 enabled_worlds:
   - world
-  - world_nether
 
 # Stop buckets and dispensers from transporting source blocks - adds realism.
 block_water_bucket: false
@@ -55,7 +54,86 @@ uv_radius: 5
 debug_log: false
 
 # CROPS - Important note, as of PPG 1.6 the plant names are now all in UPPER CASE matching the actual Bukkit Material.TYPE 
-#CROPS:
-#    Growth: 100
-#    Death: 0
-#    Biome: []
+CROPS:
+    Growth: 100
+    Death: 0
+    Biome: []
+
+CACTUS:
+    Growth: 100
+    Death: 0
+    Biome:
+    - DESERT
+    - DESERT_HILLS
+    - SAVANNA
+    - SAVANNA_MOUNTAINS
+    - SAVANNA_PLATEAU
+    - SAVANNA_PLATEAU_MOUNTAINS
+
+CARROT:
+    Growth: 100
+    Death: 0
+    Biome: []
+
+COCOA:
+    Growth: 100
+    Death: 0
+    Biome:
+    - JUNGLE
+    - JUNGLE_HILLS
+    - SWAMPLAND
+    - SWAMPLAND_MOUNTAINS
+    - SAVANNA
+    - SAVANNA_MOUNTAINS
+    - SAVANNA_PLATEAU
+    - SAVANNA_PLATEAU_MOUNTAINS
+    - DESERT
+    - DESERT_HILLS
+
+MELON_BLOCK:
+    Growth: 100
+    Death: 0
+    Biome: []
+MELON_STEM:
+    Growth: 100
+    Death: 0
+    Biome: []
+
+NETHER_WARTS:
+    Growth: 100
+    Death: 0
+    Biome: []
+
+
+POTATO:
+    Growth: 100
+    Death: 0
+    Biome: []
+
+PUMPKIN_BLOCK:
+    Growth: 100
+    Death: 0
+    Biome: []
+PUMPKIN_STEM:
+    Growth: 100
+    Death: 0
+    Biome: []
+
+SUGAR_CANE_BLOCK:
+    Growth: 100
+    Death: 0
+    Biome: []
+
+BROWN_MUSHROOM:
+    Growth: 100
+    Death: 0
+    Biome:
+    - MUSHROOM_ISLAND
+    - MUSHROOM_SHORE
+
+RED_MUSHROOM:
+    Growth: 100
+    Death: 0
+    Biome:
+    - MUSHROOM_ISLAND
+    - MUSHROOM_SHORE
