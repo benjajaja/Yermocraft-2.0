@@ -2,20 +2,20 @@ ConfigVersion: 10
 Integers:
   EngineMode: 1
   InitialRadius: 1
-  UpdateRadius: 4
-  ProcessingThreads: 3
+  UpdateRadius: 2
+  ProcessingThreads: 2
   MaxLoadedCacheFiles: 64
   ProximityHiderDistance: 8
   ProximityHiderID: 1
   ProximityHiderEnd: 255
   AirGeneratorMaxChance: 43
-  OrebfuscatorPriority: 1
-  CompressionLevel: 1
+  OrebfuscatorPriority: 0
+  CompressionLevel: 0
 Booleans:
   UseProximityHider: true
-  UseSpecialBlockForProximityHider: true
+  UseSpecialBlockForProximityHider: false
   UpdateOnDamage: true
-  DarknessHideBlocks: true
+  DarknessHideBlocks: false
   NoObfuscationForOps: false
   NoObfuscationForPermission: false
   UseCache: true
