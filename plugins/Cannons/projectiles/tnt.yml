@@ -1,6 +1,6 @@
 general:
   #the name of the projectile displayed in game
-  projectileName: clusterbomb
+  projectileName: TNT
   #the name of the item to load this projectile
   itemName: TNT
   #the item which is associated with the projectile.
@@ -16,17 +16,17 @@ general:
 cannonball:
   #type of the projectile entity
   #Arrow, Egg, EnderPearl, Fireball, Fish, LargeFireball, SmallFireball, Snowball, ThrownExpBottle, ThrownPotion, WitherSkull
-  entityType: snowball
+  entityType: WitherSkull
   #set to true if you want to have a burning projectile
   isOnFire: false
   #the velocity of the projectile.
   velocity: 3
   #how many blocks the projectile will penetrate before it explodes. If it hits something impenetrable (e.g. obsidian) it will explode instantly.
-  penetration: 1
+  penetration: 0
   #whether the .projectile destroys blocks it penetrates. If false it will explode if it hits something impenetrable.
-  doesPenetrationDamage: true
+  doesPenetrationDamage: false
   #how many seconds after firing the projectile will detonate if it does not hit anything
-  timefuse: 0
+  timefuse: 3
   #the delay in seconds between two fired cannonball in the automatic firing mode.
   automaticFiringDelay: 1
   #a cannon can fire several times with a single projectile - like a magazine in a automatic firearm
@@ -44,11 +44,11 @@ cannonball:
 explosion:
   #the explosion power of the cannonball when it hits; this number determines the explosions range in blocks.
   #for comparison, the explosion power of a creeper is 3. anything above 50 will cause lag on smaller servers
-  explosionPower: 0
+  explosionPower: 3
   #whether the explosion will destroy blocks
   doesExplosionDamage: true
   #the explosion power is set to zero if the explosion is underwater (superbreaker will still do damage)
-  doesUnderwaterExplosion: false
+  doesUnderwaterExplosion: true
   #if the projectile hits the player additional damage is done. Damage is in half hearts and the player has 20 half hearts in vanilla minecraft.
   directHitDamage: 20
   #if the player is next to an explosion he will receive additional damage
@@ -66,17 +66,18 @@ explosion:
   potionEffects:
    - harm
    - slow
+   - blind
 
 #options which determine whether blocks are spawned around the impact area. Works with spawn eggs and blocks
 placeBlock:
   #the radius where blocks will be placed. If the radius is too small there might be no air gap to spawn a block.
   radius: 3
   #the maximum amount of blocks placed. To disable this feature set the amount to 0.
-  amount: 3
+  amount: 0
   #the velocity of blocks/entities are slinged away from the impact
-  velocity: 2.0
+  velocity: 0.5
   #the fuse time in seconds of primed TNT. You can spawn primed TNT with '383:20'
-  tntFuseTime: 1.0
+  tntFuseTime: 1.5
   #the blocks which will be placed. does not seem to support more tha one block type at a time. 
   #you can either spawn a block of material, or an entity by using the spawn egg id (383) and its entity id (http://www.minecraftwiki.net/wiki/Data_values#Entity_IDs)
   material:
@@ -86,7 +87,6 @@ placeBlock:
 #spawns a new projectiles after the explosion of this projectile with the given name (file name)
 #spawning the same projectile more than once results in a endless loop
 spawnProjectiles:
-  - cobblestone
 
 spawnFireworks:
   #if true fireworks will be spawned
@@ -94,9 +94,9 @@ spawnFireworks:
   #if the firework flickers or not
   flicker: false
   #if the firework has a trail
-  trail: true
+  trail: false
   #effect type of the fireworks: BALL, BALL_LARGE, BURST, CREEPER, STAR,
-  type: BALL
+  type: BURST
   #main colors (RGB in hex notation)
   #if there are no color, than there will be no fireworks
   colors:

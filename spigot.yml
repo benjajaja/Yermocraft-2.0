@@ -10,12 +10,28 @@
 # IRC: #spigot @ irc.esper.net ( http://webchat.esper.net/?channel=spigot )
 # Forums: http://www.spigotmc.org/forum/
 
-config-version: 3
+config-version: 5
+commands:
+  replace-commands:
+  - setblock
+  - summon
+  - testforblock
+  - tellraw
+  tab-complete: true
+  silent-commandblock-console: false
+  spam-exclusions:
+  - /skill
+  log: true
 settings:
   timeout-time: 60
   restart-on-crash: true
   restart-script: ./start.sh
-  bungeecord: true
+  netty-threads: 4
+  player-shuffle: 0
+  late-bind: false
+  bungeecord: false
+  sample-count: 12
+  filter-creative-items: true
 messages:
   restart: Server is restarting
   whitelist: You are not whitelisted on this server!
@@ -23,12 +39,40 @@ messages:
   server-full: The server is full!
   outdated-client: Outdated client! Please use {}
   outdated-server: Outdated server! I'm still on {0}
-commands:
-  tab-complete: true
-  log: true
+stats:
+  disable-saving: false
+  forced-stats: {}
 world-settings:
   default:
     verbose: true
+    anti-xray:
+      enabled: false
+      engine-mode: 1
+      hide-blocks:
+      - 14
+      - 15
+      - 16
+      - 21
+      - 48
+      - 49
+      - 54
+      - 56
+      - 73
+      - 74
+      - 82
+      - 129
+      - 130
+      replace-blocks:
+      - 1
+      - 5
+    growth:
+      cactus-modifier: 100
+      cane-modifier: 100
+      melon-modifier: 100
+      mushroom-modifier: 100
+      pumpkin-modifier: 100
+      sapling-modifier: 100
+      wheat-modifier: 100
     entity-activation-range:
       animals: 32
       monsters: 32
@@ -44,38 +88,17 @@ world-settings:
       hopper-check: 8
     random-light-updates: false
     save-structure-info: true
-    anti-xray:
-      enabled: true
-      engine-mode: 1
-      blocks:
-      - 1
-      - 5
-      - 14
-      - 15
-      - 16
-      - 21
-      - 48
-      - 49
-      - 54
-      - 56
-      - 73
-      - 74
-      - 82
-      - 129
-      - 130
-    growth:
-      cactus-modifier: 100
-      cane-modifier: 100
-      melon-modifier: 100
-      mushroom-modifier: 100
-      pumpkin-modifier: 100
-      sapling-modifier: 100
-      wheat-modifier: 100
+    max-bulk-chunks: 5
+    max-entity-collisions: 8
     view-distance: 8
     chunks-per-tick: 650
+    clear-tick-list: false
     merge-radius:
       exp: 3.0
       item: 2.5
     mob-spawn-range: 4
+    nerf-spawner-mobs: false
     item-despawn-rate: 6000
     arrow-despawn-rate: 1200
+    enable-zombie-pigmen-portal-spawns: true
+    zombie-aggressive-towards-villager: true
