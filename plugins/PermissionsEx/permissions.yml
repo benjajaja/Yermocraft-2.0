@@ -23,6 +23,7 @@ groups:
     - vanish.effects.smoke
     - vanish.nochat
     - vanish.toggle.all
+    - holograms.admin
 users:
   GipsyKing:
     group:
