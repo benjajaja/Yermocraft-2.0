@@ -9,6 +9,11 @@ groups:
     - -essentials.sethome
     - essentials.sethome.bed
     - essentials.spawn
+    - essentials.msg
+    - essentials.msg.url
+    - essentials.chat.url
+    - essentials.chat.shout
+    - essentials.me
     - -factions.home
   admin:
     permissions:
