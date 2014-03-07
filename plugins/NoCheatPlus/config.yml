@@ -61,17 +61,17 @@ checks:
       active: true
       strict: false
       delay: 90
-      intervalsurvival: 100
-      grace: 10000
+      intervalsurvival: 60
+      grace: 3000
       actions: cancel vl>0 log:fastbreak:3:5:cif cancel
     frequency:
       active: true
       intervalcreative: 95
-      intervalsurvival: 45
+      intervalsurvival: 40
       shortterm:
         ticks: 5
-        limit: 7
-      actions: cancel vl>5 log:bbfrequency:3:5:if cancel vl>60 log:bbfrequency:0:5:cif cancel cmd:kickfrequency
+        limit: 10
+      actions: cancel vl>5 log:bbfrequency:3:5:if cancel vl>60 log:bbfrequency:0:5:cif cancel vl>100 log:bbfrequency:0:5:cif cmd:kickfrequency
     noswing:
       active: true
       actions: cancel vl>10 log:noswing:0:5:if cancel
@@ -79,9 +79,9 @@ checks:
       active: true
       actions: cancel vl>5 log:breach:0:2:if cancel
     wrongblock:
-      active: true
-      level: 10
-      actions: cancel vl>10 log:bwrong:0:5:if cancel vl>30 log:bwrong:0:5:cif cancel cmd:kickwb
+      active: false
+      level: 20
+      actions: cancel vl>10 log:bwrong:0:5:if cancel vl>30 log:bwrong:0:5:cif cancel vl>100 log:bwrong:0:5:cif cmd:kickwb
   blockinteract:
     direction:
       active: true
@@ -196,7 +196,7 @@ checks:
       level: 67
       message: |-
         &e>>>
-        &e>>> &cPlease &eslow down &cchat, &eyou might get kicked &cfor spam.
+        &e>>> &c¡Calla un poco! &e...o te vamos a echar por &cspamear
         &e>>>
       timeout: 10
     relog:
@@ -214,11 +214,11 @@ checks:
       perworldcount: false
       seconds: 10
       limit: 10
-      kickmessage: Too many people logging in, retry soon.
+      kickmessage: Demasiadas conexiones, vuelve a probar...
   combined:
     bedleave:
       active: true
-      actions: cancel log:bedleave:0:5:if cmd:kickbedleave
+      actions: cancel log:bedleave:0:5:if vl>1 log:bedleave:0:5:ifc cmd:kickbedleave
     enderpearl:
       active: true
       preventclickblock: true
@@ -339,7 +339,7 @@ checks:
     creativefly:
       active: true
       ignoreallowflight: false
-      ignorecreative: false
+      ignorecreative: true
       horizontalspeed: 100
       maxheight: 128
       verticalspeed: 100
