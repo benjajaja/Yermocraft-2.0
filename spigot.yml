@@ -84,8 +84,8 @@ world-settings:
       misc: 32
       other: 64
     ticks-per:
-      hopper-transfer: 4
-      hopper-check: 4
+      hopper-transfer: 16
+      hopper-check: 16
     random-light-updates: false
     save-structure-info: true
     max-bulk-chunks: 5
