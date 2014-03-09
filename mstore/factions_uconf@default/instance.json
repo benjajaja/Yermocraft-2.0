@@ -92,7 +92,7 @@
   "powerPerDeath": -5.0,
   "canLeaveWithNegativePower": false,
   "factionMemberLimit": 0,
-  "factionPowerMax": 50.0,
+  "factionPowerMax": 0.0,
   "factionNameLengthMin": 3,
   "factionNameLengthMax": 8,
   "factionNameForceUpperCase": false,
