@@ -25,7 +25,7 @@ settings:
   deprecated-verbose: default
   shutdown-message: El business está closed
 spawn-limits:
-  monsters: 1
+  monsters: 40
   animals: 2
   water-animals: 1
   ambient: 1
