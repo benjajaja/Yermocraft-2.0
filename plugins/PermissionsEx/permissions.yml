@@ -14,11 +14,13 @@ groups:
     - essentials.chat.url
     - essentials.chat.shout
     - essentials.me
+    - essentials.afk.auto
     - -factions.home
   admin:
     permissions:
     - permissions.*
     - essentials.*
+    - -essentials.afk.auto
     - RandomLocation.Admin
     - vanish.op
     - vanish.silentjoin
@@ -38,7 +40,6 @@ groups:
     - vanish.statusupdates
     - vanish.adminalerts
     - vanish.silentchests
-
     - holograms.admin
 users:
   GipsyKing:
