@@ -25,16 +25,16 @@ settings:
   deprecated-verbose: default
   shutdown-message: El business está closed
 spawn-limits:
-  monsters: 15
-  animals: 10
-  water-animals: 2
-  ambient: 2
+  monsters: 70
+  animals: 15
+  water-animals: 5
+  ambient: 15
 chunk-gc:
   period-in-ticks: 600
   load-threshold: 0
 ticks-per:
   animal-spawns: 400
-  monster-spawns: 2
+  monster-spawns: 1
   autosave: 0
 auto-updater:
   enabled: true

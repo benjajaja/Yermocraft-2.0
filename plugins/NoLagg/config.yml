@@ -127,7 +127,8 @@ spawnlimiter:
     # The default spawn limits per world, overridden by world limits
     default:
       creeper: 1
-      chicken: 50
+      chicken: 100
+      slime: 20
       wolf: 10
       ocelot: 10
     # The global spawn limits
