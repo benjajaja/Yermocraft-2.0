@@ -28,6 +28,17 @@ groups:
     - vanish.effects.smoke
     - vanish.nochat
     - vanish.toggle.all
+    - vanish.nopickup
+    - vanish.nofollow
+    - vanish.notrample
+    - vanish.nointeract
+    - vanish.nohunger
+    - vanish.fakeannounce
+    - vanish.preventdamage
+    - vanish.statusupdates
+    - vanish.adminalerts
+    - vanish.silentchests
+
     - holograms.admin
 users:
   GipsyKing:
