@@ -44,9 +44,14 @@
   "prefixMember": "⚎",
   "prefixRecruit": "",
   "playersWhoBypassAllProtection": [],
-  "worldsNoClaiming": ["world_the_end", "world_nether"],
+  "worldsNoClaiming": [
+    "world_nether",
+    "world_the_end"
+  ],
   "worldsNoPowerLoss": [],
-  "worldsIgnorePvP": ["world_the_end"],
+  "worldsIgnorePvP": [
+    "world_the_end"
+  ],
   "handleExploitObsidianGenerators": true,
   "handleExploitEnderPearlClipping": true,
   "handleExploitTNTWaterlog": false,
