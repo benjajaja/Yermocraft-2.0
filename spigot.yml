@@ -28,8 +28,8 @@ settings:
   restart-on-crash: true
   restart-script: ./start.sh
   player-shuffle: 0
-  late-bind: false
   bungeecord: false
+  late-bind: false
   sample-count: 12
   filter-creative-items: true
 messages:
@@ -98,7 +98,7 @@ world-settings:
       item: 2.5
     mob-spawn-range: 2
     nerf-spawner-mobs: true
-    item-despawn-rate: 6000
     arrow-despawn-rate: 1200
+    item-despawn-rate: 6000
     enable-zombie-pigmen-portal-spawns: true
     zombie-aggressive-towards-villager: true

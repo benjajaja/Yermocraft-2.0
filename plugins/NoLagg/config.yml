@@ -149,7 +149,11 @@ spawnlimiter:
   # For more information, see http://dev.bukkit.org/server-mods/nolagg/pages/spawn-limits-nolagg/
   mobSpawnerLimits:
     # The default spawn limits per world, overridden by world limits
-    default: {}
+    default:
+      zombie: 3
+      skeleton: 3
+      spider: 3
+      cavespider: 3
     # The global spawn limits
     global: {}
     # The world-specific spawn limits

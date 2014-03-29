@@ -19,10 +19,10 @@ Cooldowns:
   Portals: 0
   Signs: 0
 TeleportOnFirstJoin:
-  Enable: false
+  Enable: true
   Zone: Default
 AutoUpdater:
-  Enable: true
+  Enable: false
   CheckForBetas: false
   PromptAdminForUpdate: true
   CheckForUpdateInterval: 6h
