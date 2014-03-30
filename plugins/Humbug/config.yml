@@ -23,3 +23,7 @@ nerf_strength: true
 buff_health_pots: true
 horse_speed: 0.17
 strength_multiplier: 1
+ench_gold_app_edible: true
+ench_gold_app_craftable: true
+ench_book_craftable: true
+

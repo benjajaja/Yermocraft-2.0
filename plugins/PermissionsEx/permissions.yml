@@ -16,6 +16,9 @@ groups:
     - essentials.me
     - essentials.afk.auto
     - -factions.home
+    - silkspawners.place.*
+    - silkspawners.silkdrop.*
+    - silkspawners.changetypewithegg.*
   admin:
     permissions:
     - permissions.*
@@ -41,10 +44,11 @@ groups:
     - vanish.adminalerts
     - vanish.silentchests
     - holograms.admin
+    - silkspawners.*
 users:
   GipsyKing:
     group:
     - admin
-  Shiul93:
+  PhoenixEsp:
     group:
     - admin

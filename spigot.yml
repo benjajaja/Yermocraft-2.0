@@ -29,8 +29,8 @@ settings:
   restart-script: ./start.sh
   player-shuffle: 0
   bungeecord: false
-  late-bind: false
   sample-count: 12
+  late-bind: false
   filter-creative-items: true
 messages:
   restart: Apagando y encendiendo solucionamos los problemas
@@ -96,9 +96,9 @@ world-settings:
     merge-radius:
       exp: 3.0
       item: 2.5
-    mob-spawn-range: 2
-    nerf-spawner-mobs: true
-    arrow-despawn-rate: 1200
     item-despawn-rate: 6000
+    nerf-spawner-mobs: true
+    mob-spawn-range: 2
     enable-zombie-pigmen-portal-spawns: true
+    arrow-despawn-rate: 1200
     zombie-aggressive-towards-villager: true
